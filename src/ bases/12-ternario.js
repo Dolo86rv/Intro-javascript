@@ -2,7 +2,7 @@ const activo = true
 
 let mensaje = (activo) ? 'Activo' : 'Inactivo'
 
-
+const message = activo && 'Activo'
 
 /*if(activo)
 {
@@ -12,6 +12,7 @@ let mensaje = (activo) ? 'Activo' : 'Inactivo'
 }
 */
 
+console.log(message)
 console.log(mensaje)
 
 
