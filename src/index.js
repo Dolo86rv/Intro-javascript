@@ -14,5 +14,3 @@ let mensaje = (activo) ? 'Activo' : 'Inactivo'
 
 console.log(mensaje)
 
-
-
